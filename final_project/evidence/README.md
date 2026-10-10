@@ -13,4 +13,6 @@ Evidence in this directory was captured during the official IBM Skills Network C
 - `live/7c_error_handling_interface.png` and original `.jpg`: clean UI showing the exact invalid-text response after blank input. `7c_whitespace_error.jpg/.txt` records whitespace handling too.
 - `live/8b_static_code_analysis.txt` and `.jpg`: Cloud IDE terminal output showing Pylint 10.00/10.
 
-The browser screenshots contain only the course application interface; the terminal screenshots show the official course lab/editor context and authentic commands/output. See `../../FINAL_PROJECT_MANIFEST.md` for the 16-point mapping and `../../PUBLICATION_PLAN.md` for the separate local-only publication plan.
+The browser screenshots contain only the course application interface; terminal screenshots show the official course lab/editor context and authentic commands/output. The public fork is [BrandenFarmerDev/oaqjp-final-project-emb-ai](https://github.com/BrandenFarmerDev/oaqjp-final-project-emb-ai), forked from [the official IBM starter](https://github.com/ibm-developer-skills-network/oaqjp-final-project-emb-ai). GitHub's repository API verifies the parent at https://api.github.com/repos/BrandenFarmerDev/oaqjp-final-project-emb-ai. Stable file links and the 16-point mapping are in `../../FINAL_PROJECT_MANIFEST.md` and `../../PUBLICATION_PLAN.md`.
+
+Course submission remains separate and has not been performed.
