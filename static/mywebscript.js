@@ -1,12 +1,19 @@
-let RunSentimentAnalysis = ()=>{
-    textToAnalyze = document.getElementById("textToAnalyze").value;
+const RunSentimentAnalysis = () => {
+    const textToAnalyze = document.getElementById("textToAnalyze").value;
+    const responseElement = document.getElementById("system_response");
+    const request = new XMLHttpRequest();
 
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("system_response").innerHTML = xhttp.responseText;
+    request.onreadystatechange = () => {
+        if (request.readyState === XMLHttpRequest.DONE) {
+            responseElement.textContent = request.status === 200
+                ? request.responseText
+                : "The analysis service is temporarily unavailable. Please try again.";
         }
     };
-    xhttp.open("GET", "emotionDetector?textToAnalyze"+"="+textToAnalyze, true);
-    xhttp.send();
-}
+    request.open(
+        "GET",
+        `emotionDetector?textToAnalyze=${encodeURIComponent(textToAnalyze)}`,
+        true
+    );
+    request.send();
+};
