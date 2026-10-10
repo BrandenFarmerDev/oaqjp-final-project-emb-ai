@@ -1,0 +1,149 @@
+- list:
+  - generic: File
+  - generic: Edit
+  - generic: Selection
+  - generic: View
+  - generic: Go
+  - generic: Run
+  - generic: Terminal
+  - generic: Help
+- menu:
+  - button "":
+    - generic "Go Back (Alt+Left)": 
+  - button "":
+    - generic "Go Forward": 
+  - button "":
+    - generic "Split Editor Right": 
+  - button "":
+    - generic "Command Palette (Ctrl+Shift+P)": 
+- list:
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: "8"
+  - generic: 
+  - generic: 
+  - generic: 
+- generic: 
+- generic "Skills Network Toolbox"
+- generic "About Skills Network Toolbox": 
+- generic "Collapse all": 
+- text:                                                                                                       
+- button "databases":
+  - generic: databases
+  - generic: 
+- button "big data":
+  - generic: big data
+  - generic: 
+- button "cloud":
+  - generic: cloud
+  - generic: 
+- button "embeddable ai":
+  - generic: embeddable ai
+  - generic: 
+- button "other":
+  - generic: other
+  - generic: 
+- generic "Launch your application from a port":
+  - generic: Launch Application
+- list:
+  - listitem "Welcome":
+    - generic: Welcome
+    - generic "Close": 
+  - listitem "Your Application":
+    - generic: 
+    - generic: Your Application
+    - generic "Close"
+- list
+- heading " Start" [level=3]:
+  - generic: 
+  - text: Start
+- button "New File..."
+- button "Open"
+- button "Open Workspace"
+- heading " Recent" [level=3]:
+  - generic: 
+  - text: Recent
+- button "project"
+- text: /home/project
+- heading " Settings" [level=3]:
+  - generic: 
+  - text: Settings
+- button "Open Settings"
+- button "Open Keyboard Shortcuts"
+- heading "Cloud IDE" [level=1]
+- paragraph: Version 1.7.4
+- paragraph: "VS Code API Version: 1.89.1"
+- separator
+- heading "What is Cloud IDE?" [level=3]
+- generic: Cloud IDE is a fully-featured Integrated Development Environment (IDE) that you'll be using to write, run, and debug your code.
+- heading "Getting Started" [level=3]
+- generic: On your left,you'll find the instructions for the tasks you need to complete in this lab. Follow them step-by-step to achieve the objectives of this lab. You can also click the chat button to ask for help from Tai, your AI Teaching Assistant at any time.
+- generic: On your right (here),is the Cloud IDE tool, a fully-featured Integrated Development Environment (IDE) that you'll be using to write, run, and debug your code.
+- generic: "Here are some key components of the Cloud IDE tool:"
+- list:
+  - text: "File Explorer: Navigate through your files and directories."
+  - link "Click HERE to open the File Explorer.":
+    - /url: "#"
+  - text: "Terminal: Run your code and see the output here."
+  - link "Click HERE to open a New Terminal.":
+    - /url: "#"
+  - text: "Skills Network Toolbox: Access various technologies like databases and Embeddable AI with just a click."
+  - link "Click HERE to toggle the Skills Network Toolbox.":
+    - /url: "#"
+- checkbox "Show welcome page on startup" [checked]
+- generic: Show welcome page on startup
+- text:     
+- list:
+  - listitem "Problems":
+    - generic: 
+    - generic: Problems
+    - generic "Close"
+  - listitem "Terminal 0":
+    - generic: 
+    - generic: "theia@theiadocker-brandenfarme: /home/project/final_project/final_project"
+    - generic "Close": 
+- generic "Move View to Secondary Window": 
+- generic "Split Terminal": 
+- list
+- text:      
+- textbox "Terminal input" [active]
+- generic: long hours.'))"
+- generic: "{'anger': 0.0043339236, 'disgust': 0.00037549555, 'fear': 0.0034732423, 'joy': 0.9947189, 'sadness': 0.012704818, 'dominant_emotion': 'joy'}"
+- generic: "{'anger': 0.64999825, 'disgust': 0.03349073, 'fear': 0.05567236, 'joy': 0.008661813, 'sadness': 0.19678932, 'dominant_emotion': 'anger'}"
+- generic: theia@theiadocker-brandenfarme
+- generic: ":"
+- generic: /home/project/final_project/final_project
+- generic: $ python3 -m unittest test_emotion_detection.py
+- generic: ....
+- generic: "----------------------------------------------------------------------"
+- generic: Ran 4 tests in 0.006s
+- generic: OK
+- generic: theia@theiadocker-brandenfarme
+- generic: ":"
+- generic: /home/project/final_project/final_project
+- generic: $
+- list:
+  - generic: 
+- generic:     
+- generic "$(codicon-source-control) main*, final_project (Git) - main*":
+  - generic: 
+  - generic: main*
+- generic "$(codicon-sync), final_project (Git) - Synchronize Changes":
+  - generic: 
+- generic "$(codicon-error) 0 $(codicon-warning) 0, No Problems":
+  - generic: 
+  - generic: "0"
+  - generic: 
+  - generic: "0"
+- generic "$(broadcast) Go Live, Click to run live server":
+  - generic: 
+  - generic: Go Live
+- generic "No Notifications":
+  - generic: 
+- button "Toggle Bottom Panel":
+  - generic: 
+- generic:  
+- alert
+- alert
+- generic: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK________________________________

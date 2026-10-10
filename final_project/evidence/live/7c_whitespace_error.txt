@@ -1,0 +1,8 @@
+- heading "NLP - Emotion Detection" [level=1]
+- heading "Please enter the text to be analyzed" [level=2]:
+  - generic: Please enter the text to be analyzed
+  - textbox
+- button "Run Sentiment Analysis" [active]
+- heading "Result of Emotion Detection" [level=2]:
+  - generic: Result of Emotion Detection
+- generic: Invalid text! Please try again!

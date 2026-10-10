@@ -1,0 +1,217 @@
+- banner:
+  - navigation:
+    - list:
+      - link "Instructions Lab guide":
+        - /url: "#md-instructions"
+        - generic: Instructions
+        - paragraph: Lab guide
+      - link "Talk to Tai! Ask Tai":
+        - /url: "#tai-chat"
+        - generic: Talk to Tai!
+        - paragraph: Ask Tai
+  - button:
+  - generic: Inbox
+  - paragraph: Inbox
+  - button "What's new What's new":
+    - generic: What's new
+    - paragraph: What's new
+  - button "Support Support":
+    - generic: Support
+    - paragraph: Support
+  - button "Reset Reset lab":
+    - generic: Reset
+    - paragraph: Reset lab
+  - button:
+  - separator
+  - button "User profile pic":
+    - img "User profile pic"
+- main:
+  - iframe [name="sn_editor_iframe_name"]:
+    - alert
+    - main:
+      - button "Open table of contents":
+      - button "Translation":
+      - button "Print":
+      - button "Export Markdown":
+      - button "Zoom Out":
+      - button "Zoom In":
+      - 'heading "Final Project: AI-Based Web Application Development and Deployment" [level=1]'
+      - paragraph:
+      - paragraph: "Estimated Time: 1 hour 45 minutes"
+      - heading "Scenario" [level=2]
+      - paragraph: You have been hired as a software engineer by an e-commerce company to create an AI-based web app that performs analytics on customer feedback for their signature products. To accomplish this requirement, you will create an Emotion Detection system that processes feedback provided by the customer in text format and deciphers the associated emotion expressed.
+      - heading "Introduction" [level=2]
+      - paragraph: In this final project, you will be assessed on the knowledge gained on all aspects of app creation and its web deployment throughout this course and we use the embeddable Watson AI libraries to create an emotion detection application.
+      - paragraph: Emotion detection extends the concept of sentiment analysis by extracting the finer emotions, like joy, sadness, anger, and so on, from statements rather than the simple polarity that sentiment analysis provides. This makes emotion detection a very important branch of study and businesses use such systems widely for their AI based recommendation systems, automated chat bots, and so on.
+      - heading "Project guidelines" [level=2]
+      - paragraph: For the completion of this project, you'll have to complete the following 8 tasks, based on the knowledge you have gained through the course.
+      - paragraph: "Note: This platform is not persistent. It is recommended that you keep a copy of your code on your local machines and save changes from time to time. In case you revisit the lab, you will need to recreate the files in this lab environment, using the saved copies from your machines."
+      - paragraph
+      - heading "Tasks and objectives:" [level=2]
+      - list:
+        - listitem: "Task 1: Fork and Clone the project repository"
+        - listitem: "Task 2: Create an emotion detection application using Watson NLP library"
+        - listitem: "Task 3: Format the output of the application"
+        - listitem: "Task 4: Package the application"
+        - listitem: "Task 5: Run Unit tests on your application"
+        - listitem: "Task 6: Deploy as web application using Flask"
+        - listitem: "Task 7: Incorporate Error handling"
+        - listitem: "Task 8: Run static code analysis"
+      - paragraph: Let's get started!
+      - button "Note":
+        - generic: Note
+      - paragraph:
+        - text: The content of this lab is licensed under
+        - link "Apache 2.0":
+          - /url: https://www.apache.org/licenses/LICENSE-2.0
+  - button:
+  - iframe [active] [id="tool_iframe"] [name="tool_iframe_name"]:
+    - list:
+      - generic: File
+      - generic: Edit
+      - generic: Selection
+      - generic: View
+      - generic: Go
+      - generic: Run
+      - generic: Terminal
+      - generic: Help
+    - menu:
+      - button "":
+        - generic "Go Back (Alt+Left)": 
+      - button "":
+        - generic "Go Forward": 
+      - button "":
+        - generic "Split Editor Right": 
+      - button "":
+        - generic "Command Palette (Ctrl+Shift+P)": 
+    - list:
+      - generic: 
+      - generic: 
+      - generic: 
+      - generic: "8"
+      - generic: 
+      - generic: 
+      - generic: 
+    - generic: 
+    - generic "Skills Network Toolbox"
+    - generic "About Skills Network Toolbox": 
+    - generic "Collapse all": 
+    - text:                                                                                                       
+    - button "databases":
+      - generic: databases
+      - generic: 
+    - button "big data":
+      - generic: big data
+      - generic: 
+    - button "cloud":
+      - generic: cloud
+      - generic: 
+    - button "embeddable ai":
+      - generic: embeddable ai
+      - generic: 
+    - button "other":
+      - generic: other
+      - generic: 
+    - generic "Launch your application from a port":
+      - generic: Launch Application
+    - list:
+      - listitem "Welcome":
+        - generic: Welcome
+        - generic "Close": 
+      - listitem "Your Application":
+        - generic: 
+        - generic: Your Application
+        - generic "Close"
+    - list
+    - heading " Start" [level=3]:
+      - generic: 
+      - text: Start
+    - button "New File..."
+    - button "Open"
+    - button "Open Workspace"
+    - heading " Recent" [level=3]:
+      - generic: 
+      - text: Recent
+    - button "project"
+    - text: /home/project
+    - heading " Settings" [level=3]:
+      - generic: 
+      - text: Settings
+    - button "Open Settings"
+    - button "Open Keyboard Shortcuts"
+    - heading "Cloud IDE" [level=1]
+    - paragraph: Version 1.7.4
+    - paragraph: "VS Code API Version: 1.89.1"
+    - separator
+    - heading "What is Cloud IDE?" [level=3]
+    - generic: Cloud IDE is a fully-featured Integrated Development Environment (IDE) that you'll be using to write, run, and debug your code.
+    - heading "Getting Started" [level=3]
+    - generic: On your left,you'll find the instructions for the tasks you need to complete in this lab. Follow them step-by-step to achieve the objectives of this lab. You can also click the chat button to ask for help from Tai, your AI Teaching Assistant at any time.
+    - generic: On your right (here),is the Cloud IDE tool, a fully-featured Integrated Development Environment (IDE) that you'll be using to write, run, and debug your code.
+    - generic: "Here are some key components of the Cloud IDE tool:"
+    - list:
+      - text: "File Explorer: Navigate through your files and directories."
+      - link "Click HERE to open the File Explorer.":
+        - /url: "#"
+      - text: "Terminal: Run your code and see the output here."
+      - link "Click HERE to open a New Terminal.":
+        - /url: "#"
+      - text: "Skills Network Toolbox: Access various technologies like databases and Embeddable AI with just a click."
+      - link "Click HERE to toggle the Skills Network Toolbox.":
+        - /url: "#"
+    - checkbox "Show welcome page on startup" [checked]
+    - generic: Show welcome page on startup
+    - text:     
+    - list:
+      - listitem "Problems":
+        - generic: 
+        - generic: Problems
+        - generic "Close"
+      - listitem "Terminal 0":
+        - generic: 
+        - generic: "theia@theiadocker-brandenfarme: /home/project/final_project/final_project"
+        - generic "Close": 
+    - generic "Move View to Secondary Window": 
+    - generic "Split Terminal": 
+    - list
+    - text:      
+    - textbox "Terminal input" [active]
+    - generic: 16.0 urllib3-2.8.0 werkzeug-3.1.9
+    - generic: theia@theiadocker-brandenfarme
+    - generic: ":"
+    - generic: /home/project/final_project/fin
+    - generic: al_project$ python3 -c "from EmotionDetection import emotion_d
+    - generic: etector; print(emotion_detector('I love this new technology.')
+    - generic: )"
+    - generic: "{'anger': 0.01364663, 'disgust': 0.0017160787, 'fear': 0.00898"
+    - generic: "6978, 'joy': 0.9719017, 'sadness': 0.055187024, 'dominant_emot"
+    - generic: "ion': 'joy'}"
+    - generic: theia@theiadocker-brandenfarme
+    - generic: ":"
+    - generic: /home/project/final_project/fin
+    - generic: al_project
+    - generic: $
+    - list:
+      - generic: 
+    - generic:     
+    - generic "$(codicon-source-control) main*, final_project (Git) - main*":
+      - generic: 
+      - generic: main*
+    - generic "$(codicon-sync), final_project (Git) - Synchronize Changes":
+      - generic: 
+    - generic "$(codicon-error) 0 $(codicon-warning) 0, No Problems":
+      - generic: 
+      - generic: "0"
+      - generic: 
+      - generic: "0"
+    - generic "$(broadcast) Go Live, Click to run live server":
+      - generic: 
+      - generic: Go Live
+    - generic "No Notifications":
+      - generic: 
+    - button "Toggle Bottom Panel":
+      - generic: 
+    - generic:  
+    - alert
+    - alert
+    - generic: "}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}________________________________"

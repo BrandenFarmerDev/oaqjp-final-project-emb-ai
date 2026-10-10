@@ -1,0 +1,8 @@
+- heading "NLP - Emotion Detection" [level=1]
+- heading "Please enter the text to be analyzed I think I am having fun" [level=2]:
+  - generic: Please enter the text to be analyzed
+  - textbox: I think I am having fun
+- button "Run Sentiment Analysis" [active]
+- heading "Result of Emotion Detection" [level=2]:
+  - generic: Result of Emotion Detection
+- generic: "For the given statement, the system response is 'anger': 0.029103195, 'disgust': 0.0067921067, 'fear': 0.027528232, 'joy': 0.876574 and 'sadness': 0.06151191. The dominant emotion is joy."
